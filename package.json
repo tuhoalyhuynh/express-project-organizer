@@ -8,12 +8,25 @@
   "license": "ISC",
   "dependencies": {
     "async": "^2.6.2",
+    "bootstrap": "^4.5.3",
     "ejs": "^2.4.2",
     "express": "^4.16.4",
     "express-ejs-layouts": "^2.1.0",
+    "jquery": "^3.5.1",
     "morgan": "^1.7.0",
     "pg": "^8.5.1",
     "rowdy-logger": "0.0.2",
     "sequelize": "^6.3.5"
-  }
+  },
+  "description": "To practice N:M associations, we'll be adding the ability to categorize projects in an existing project organizer.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuhoalyhuynh/express-project-organizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/tuhoalyhuynh/express-project-organizer/issues"
+  },
+  "homepage": "https://github.com/tuhoalyhuynh/express-project-organizer#readme"
 }

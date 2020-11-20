@@ -12,5 +12,13 @@
     <h2>
       <a href="/projects/<%= project.id %>"><%= project.name %></a>
     </h2>
+    <form action="/categories" method="POST">
+      <div class="form-group">
+        <label for="name">Add a Category</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <input type="submit" class="btn btn-primary">
+    </form>
   </div>
 <% }); %>
+  
