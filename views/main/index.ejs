@@ -14,8 +14,9 @@
     </h2>
     <form action="/categories" method="POST">
       <div class="form-group">
-        <label for="name">Add a Category</label>
-        <input type="text" class="form-control" id="name" name="name" required>
+        <label for="category">Add a Category</label>
+        <input type="text" class="form-control" id="category" name="category" required>
+        <input type="hidden" class="form-control" id="projectId" name="projectId" required value="<%= project.id %> ">
       </div>
       <input type="submit" class="btn btn-primary">
     </form>
